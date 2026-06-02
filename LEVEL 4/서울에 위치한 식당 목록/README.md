@@ -2,6 +2,7 @@
 
 ## 풀이
 - SELECT 절에 있는 컬럼 중, 그룹함수가 적용되지 않은 모든 일반 컬럼은 반드시 GROUP BY 절에 적어주어야 한다. 
+    - 그룹 바이에 여러개의 컬럼이 들어가면 and 연산으로 그룹이 생성된다. 
 
 ## 생각해볼 점
 - JOIN을 사용하지 않고 조건으로 구현 가능
@@ -17,12 +18,12 @@ SELECT
 FROM 
     REST_INFO I, 
     REST_REVIEW R 
-WHERE 
-    I.REST_ID = R.REST_ID  
+WHERE
+    I.REST_ID = R.REST_ID
     AND I.ADDRESS LIKE '서울%'
-GROUP BY 
+GROUP BY
     I.REST_ID, I.REST_NAME, I.FOOD_TYPE, I.FAVORITES, I.ADDRESS
-ORDER BY 
+ORDER BY
     SCORE DESC, I.FAVORITES DESC;
 ```
 
