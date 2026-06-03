@@ -9,7 +9,8 @@
 ## 📅 풀이 기록
 | 날짜 | 플랫폼 | 문제명 | 난이도 | 내용 |
 | :--- | :--- | :--- | :--- | :--- |
-| 26.05.31 | Programmers | 서울에 위치한 식당 목록 | Lv.4 | SELECT |   
+| 26.05.31 | Programmers | 서울에 위치한 식당 목록 | Lv.4 | SELECT |
+| 26.06.03 | Programmers | 특정 세대의 대장균 찾기 | Lv.3 | SELECT(Recursive Query) |      
 
 ---
 
