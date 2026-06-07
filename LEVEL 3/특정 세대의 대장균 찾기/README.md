@@ -54,6 +54,11 @@ WITH RECURSIVE 임시테이블 AS (
 SELECT * FROM 임시테이블;
 ```
 
+
+- SELECT 명령어의 본질: 결과로 내보낼 DATA를 새롭게 정의
+    - 이미 존재하는 TABLE의 값을 가져오기
+    - 상수나 수식을 사용하여, 데이터를 결과로 return 
+
 - 첫번째 SELECT문 "SELECT 1 AS NUM"
     - NUM (컬럼명) / 1 (Data) : 아무것도 없는 백지상태에 NUM이라는 이름표를 붙이고, 그 밑에 1이라는 값을 넣었음. 
 - 이후 합집합 연산 
